@@ -133,17 +133,39 @@ iframe {
 /* Recipe top */
 /* Recipe characteristic */
 
-ul {
+.recipe-characteristic ul {
     margin: 0 0 20px 20px;
     --fa-li-margin: 20px;
 }
 
-li {
+.recipe-characteristic li {
     line-height: 2rem;
 }
 
 /* Recipe top */
 /* Recipe Social */
 
+.social {
+    margin: 20px 0
+}
 
+.list-flex {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social li {
+    display: inline;
+}
+
+.icon {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 40%;
+}
 
