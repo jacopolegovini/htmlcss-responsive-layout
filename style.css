@@ -15,8 +15,18 @@ body:not(h1) {
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+}
+
 /* Utilities */
 
 h1 {
     font-family: "Nerko One", cursive;
+    color: #FF9613;
+}
+
+.row {
+    display: flex;
 }
