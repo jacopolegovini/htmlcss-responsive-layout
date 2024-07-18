@@ -11,13 +11,16 @@ img {
     display: block;
 }
 
-body:not(h1) {
+body {
     font-family: "Montserrat", sans-serif;
+    background-color: #F6F5F3;
+    
 }
 
 .container {
     max-width: 1200;
     margin: 0 auto;
+    padding: 10px;
 }
 
 /* Utilities */
@@ -25,8 +28,23 @@ body:not(h1) {
 h1 {
     font-family: "Nerko One", cursive;
     color: #FF9613;
+    text-align: center;
+    background-color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 0;
 }
 
 .row {
     display: flex;
+}
+
+
+/* Recipe-top */
+/* Category */
+
+.desserts {
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
 }
