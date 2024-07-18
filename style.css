@@ -23,6 +23,17 @@ body {
     padding: 10px;
 }
 
+.container-s {
+    padding: 20px;
+    background-color: #F6F5F9;
+    margin: 20px 0;
+}
+
+.container-m {
+    padding: 0 20px;
+    background-color: white;
+}
+
 /* Utilities */
 
 h1 {
@@ -33,6 +44,12 @@ h1 {
     font-weight: lighter;
     text-transform: uppercase;
     padding: 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #493468;
 }
 
 .row {
@@ -47,4 +64,86 @@ h1 {
     padding: 10px 0;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
 }
+
+/* Recipe-top */
+/* Recipe top flex */
+
+.recipe-top {
+    flex-direction: column;
+}
+
+.recipe-title {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    flex-direction: column;
+}
+
+/* Recipe top */
+/* Recipe title */
+
+.rate-button {
+    text-transform: uppercase;
+    color: white;
+    background-color: #FF9613;
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-left: 5px;
+}
+
+/* Recipe top */
+/* Recipe video */
+
+iframe {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+}
+
+/* Recipe top */
+/* Recipe info top */
+
+.recipe-info-top {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.recipe-calories {
+    color: white;
+    font-weight: bold;
+    background-color: #7C69A4;
+    padding: 5px;
+}
+
+.recipe-info-button {
+    color: #FF9613;
+}
+
+.recipe-info-bottom {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+/* Recipe top */
+/* Recipe characteristic */
+
+ul {
+    margin: 0 0 20px 20px;
+    --fa-li-margin: 20px;
+}
+
+li {
+    line-height: 2rem;
+}
+
+/* Recipe top */
+/* Recipe Social */
+
+
+
