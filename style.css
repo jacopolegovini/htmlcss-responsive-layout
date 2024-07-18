@@ -20,7 +20,7 @@ body {
 .container {
     max-width: 1200;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 .container-s {
@@ -44,6 +44,12 @@ h1 {
     font-weight: lighter;
     text-transform: uppercase;
     padding: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 20px;
 }
 
 h4 {
@@ -178,6 +184,7 @@ iframe {
     background-color: white;
     padding: 10px 15px;
     border-radius: 40%;
+    margin: 10px 0 20px 0;
 }
 
 /* Recipe top */
@@ -189,7 +196,20 @@ iframe {
 
 
 /* Recipe down */
-/*  */
+/* Presentation */
+
+.img-presentation {
+    width: 80%;
+    position: relative;
+    top: 0;
+    left: 50px;
+    margin-bottom: 10px;
+}
+
+.copy-presentation {
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+}
 
 
 /* Footer */
@@ -243,6 +263,7 @@ iframe {
         background-color: white;
         padding: 10px 50px;
         border-radius: 30px;
+        margin: 10px 0 20px 0;
     }
 
     /* Recipe top */
