@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1080;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 15px;
 }
@@ -209,7 +209,7 @@ iframe {
 /* Recipe down */
 /* Presentation */
 
-/* .img-presentation {
+.img-presentation {
     position: relative;
 }
 
@@ -228,10 +228,18 @@ iframe {
     position: absolute;
     left: 0px;
     top: -10px;
-} */
+}
 
-.img-presentation > img {
+.copy-presentation {
+    line-height: 1.8rem;
+    font-size: 0.8rem;
+} 
+
+
+/* Float mobile */
+/* .copy-presentation img {
     float: right;
+    max-width: 70%;
 }
 
 .clearfix::after {
@@ -239,11 +247,7 @@ iframe {
 	content: '';
 	clear: both;
 }
-
-.copy-presentation {
-    line-height: 1.8rem;
-    font-size: 0.8rem;
-}
+*/
 
 
 /* Footer */
@@ -441,6 +445,14 @@ footer > * {
 
     .youtube::after {
         content: 'youtube';
+    }
+
+
+    /* Recipe bottom */
+    /* Presentation */
+
+    .img-presentation img {
+        width: 30%;
     }
 
 
