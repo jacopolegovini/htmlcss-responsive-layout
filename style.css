@@ -214,6 +214,42 @@ iframe {
 
 /* Footer */
 
+footer {
+    background-color: #7C69A4;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.8rem;
+}
+
+footer > * {
+    padding: 5px;
+}
+
+.copyright {
+    font-weight: bold;
+}
+
+.address {
+    color: lightgray;
+}
+
+.footer-list {
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.footer-list li {
+    flex-grow: 1;
+}
+
+.footer-list a {
+    color: lightgray;
+}
+
+
 
 /* Media query table */
 
