@@ -44,6 +44,7 @@ h1 {
     font-weight: lighter;
     text-transform: uppercase;
     padding: 0;
+    text-shadow: 1px 1px gray;
 }
 
 h2 {
@@ -104,6 +105,8 @@ h4 {
     border-radius: 20px;
     padding: 8px 10px;
     margin-left: 5px;
+    font-weight: 700;
+    font-size: 0.8rem;
 }
 
 /* Recipe top */
@@ -206,7 +209,7 @@ iframe {
 /* Recipe down */
 /* Presentation */
 
-.img-presentation {
+/* .img-presentation {
     position: relative;
 }
 
@@ -225,6 +228,16 @@ iframe {
     position: absolute;
     left: 0px;
     top: -10px;
+} */
+
+.img-presentation > img {
+    float: right;
+}
+
+.clearfix::after {
+	display:block;
+	content: '';
+	clear: both;
 }
 
 .copy-presentation {
@@ -295,7 +308,7 @@ footer > * {
 
     h1 {
         text-align: left;
-        padding-left: 10px;
+        padding: 5px 0 5px 10px;
     }
 
     h2 {
