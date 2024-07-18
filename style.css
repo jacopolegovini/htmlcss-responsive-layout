@@ -107,6 +107,10 @@ iframe {
 /* Recipe top */
 /* Recipe info top */
 
+.recipe-info {
+    font-size: 0.8rem;
+}
+
 .recipe-info-top {
     justify-content: space-between;
     align-items: center;
@@ -119,15 +123,18 @@ iframe {
     font-weight: bold;
     background-color: #7C69A4;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .recipe-info-button {
     color: #FF9613;
+    font-weight: 700;
 }
 
 .recipe-info-bottom {
     text-transform: uppercase;
     padding-top: 20px;
+    font-weight: 600;
 }
 
 /* Recipe top */
@@ -149,7 +156,7 @@ iframe {
     margin: 20px 0
 }
 
-.list-flex {
+.social-list-flex {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -169,3 +176,76 @@ iframe {
     border-radius: 40%;
 }
 
+/* Recipe top */
+/* Banner */
+
+.advertising {
+    display: none;
+}
+
+
+/* Recipe down */
+/*  */
+
+
+/* Footer */
+
+
+/* Media query table */
+
+@media screen and (min-width: 768px) {
+    
+    /* General */
+
+    .container {
+        padding: 30px;
+    }
+
+
+    /* Utilities */
+
+    h1 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    h4::after {
+        content: ' (dolce tradizionale)';
+        text-transform: capitalize;
+    }
+
+    
+    /* Recipe top */
+    /* Recipe characteristic */
+
+    .characteristic-list-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .characteristic-list-flex li {
+        flex-basis: calc(100% / 3 - 20px);
+    }
+
+    /* Recipe top */
+    /* Social */
+
+    .icon {
+        background-color: white;
+        padding: 10px 50px;
+        border-radius: 30px;
+    }
+
+    /* Recipe top */
+    /* Banner */
+
+    .advertising {
+        display: block;
+    }
+
+}
